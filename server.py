@@ -15,13 +15,13 @@ def html_page(page_name):
 
 
 def write_to_file(data):
-    with open('database.txt', mode='a') as database:
+    with open('./database.txt', mode='a') as database:
         database.write(
             f"\n{data['email']},{data['subject']},{data['message']}")
 
 
 def write_to_csv(data):
-    with open('database.csv', mode='a', newline='') as database2:
+    with open('./database.csv', mode='a', newline='') as database2:
         csv_writer = csv.writer(database2, delimiter=',',
                                 quotechar='"', quoting=csv.QUOTE_MINIMAL)
         csv_writer.writerow([data['email'], data['subject'], data['message']])
