@@ -1,4 +1,5 @@
 email,subject,message
-ioan.zicu94@gmail.com,wadawdawd,efsefs
-vanea-zicu@mail.ru,ADadas,Hol
-new@mail,Lol,Be confident and do iT!
+mail@gmail.com,wadawdawd,efsefs
+trol@gmail.ru,ADadas,Hol
+new@mail,Lol,Be confident and do iT!
+
